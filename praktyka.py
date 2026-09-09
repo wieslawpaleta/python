@@ -1,6 +1,7 @@
 #Praktyka W3Schools
 #Python Introduction, Getting Started, Syntax, Statements, Syntax Code Challenge, Output / Print, Numbers, Output Code Challenge, Comments, Challenge: Comments,
-#Variables, Variable Names, Variables - Assign Multiple Values, Output Variables(Teraz tu jestem!)
+#Variables, Variable Names, Variables - Assign Multiple Values, Output Variables, Global Variables, Variable Exercises, Variables Code Challenge,
+#Data Types  (Teraz tu jestem!)
 
 import sys
 
@@ -88,3 +89,88 @@ x, y, z = buildings
 print(x)
 print(y)
 print(z)
+
+
+x = "Python is a duck"
+print(x)
+
+
+x = "Python"
+y = "is"
+z = "a duck"
+print(x, y, z)
+
+
+x = "Python "
+y = "is "
+z = "a duck"
+print(x + y + z)
+
+
+x = 0
+y = 1
+print(x + y)
+
+
+x = 5
+y = "Geese"
+print(x, y)
+
+
+x = "Python"
+
+def myfunc():
+    print("Python is " + x)
+
+
+myfunc()
+
+
+x = "Python"
+
+def myfunc():
+    global x
+    x = "nohtyP"
+    print("Python is " + x)
+
+
+myfunc()
+
+
+#-----------------
+
+
+x = ""
+print(type(x))
+x = "Goodday"
+print(type(x))
+x = 20
+print(type(x))
+x = 10.09
+print(type(x))
+x = 5j
+print(type(x))
+x = ["cheese","mouse","rat"]
+print(type(x))
+x = ("cheese","mouse","rat")
+print(type(x))
+x = range(3)
+print(type(x))
+x = {"food" : "cheese", "type" : "tasty"}
+print(type(x))
+x = {"cheese", "mouse", "rat"}
+print(type(x))
+x = ""
+print(type(x))
+x = ""
+print(type(x))
+x = ""
+print(type(x))
+x = ""
+print(type(x))
+x = ""
+print(type(x))
+x = ""
+print(type(x))
+x = ""
+print(type(x))

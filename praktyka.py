@@ -1,9 +1,10 @@
 #Praktyka W3Schools
 #Python Introduction, Getting Started, Syntax, Statements, Syntax Code Challenge, Output / Print, Numbers, Output Code Challenge, Comments, Challenge: Comments,
 #Variables, Variable Names, Variables - Assign Multiple Values, Output Variables, Global Variables, Variable Exercises, Variables Code Challenge,
-#Data Types  (Teraz tu jestem!)
+#Data Types, Data Types Code Challenge, Numbers, Numbers Code Challenge, Casting  (Teraz tu jestem!)
 
 import sys
+import random
 
 
 print("Gooday!\n")
@@ -140,8 +141,8 @@ myfunc()
 #-----------------
 
 
-x = ""
-print(type(x))
+# x = ""
+# print(type(x))
 x = "Goodday"
 print(type(x))
 x = 20
@@ -160,17 +161,66 @@ x = {"food" : "cheese", "type" : "tasty"}
 print(type(x))
 x = {"cheese", "mouse", "rat"}
 print(type(x))
-x = ""
+x = frozenset({"cheese", "mouse", "rat"})
 print(type(x))
-x = ""
+x = True
 print(type(x))
-x = ""
+x = b"Hello"
 print(type(x))
-x = ""
+x = bytearray(5)
 print(type(x))
-x = ""
+x = memoryview(bytes(5))
 print(type(x))
-x = ""
+x = None
 print(type(x))
-x = ""
+
+print("\n")
+
+x = str("Goodday")
 print(type(x))
+x = int(20)
+print(type(x))
+x = float(10.09)
+print(type(x))
+x = complex(5j)
+print(type(x))
+x = list(("cheese","mouse","rat"))
+print(type(x))
+x = tuple(("cheese","mouse","rat"))
+print(type(x))
+x = range(3)
+print(type(x))
+x = dict(food="cheese", type="tasty")
+print(type(x))
+x = set(("cheese", "mouse", "rat"))
+print(type(x))
+x = frozenset(("cheese", "mouse", "rat"))
+print(type(x))
+x = bool(5)
+print(type(x))
+x = bytes(5)
+print(type(x))
+x = bytearray(5)
+print(type(x))
+x = memoryview(bytes(5))
+print(type(x))
+
+
+x = 1
+y = 2.8
+z = 1j
+
+a = float(x)
+b = int(y)
+c = complex(x)
+
+print(a)
+print(b)
+print(c)
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+
+print(random.randrange(1, 10))

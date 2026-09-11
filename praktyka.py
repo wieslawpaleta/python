@@ -1,7 +1,8 @@
 #Praktyka W3Schools
 #Python Introduction, Getting Started, Syntax, Statements, Syntax Code Challenge, Output / Print, Numbers, Output Code Challenge, Comments, Challenge: Comments,
 #Variables, Variable Names, Variables - Assign Multiple Values, Output Variables, Global Variables, Variable Exercises, Variables Code Challenge,
-#Data Types, Data Types Code Challenge, Numbers, Numbers Code Challenge, Casting  (Teraz tu jestem!)
+#Data Types, Data Types Code Challenge, Numbers, Numbers Code Challenge, Casting,  Casting Code Challenge, Strings, Slicing Strings, Modify Strings
+#   (Teraz tu jestem!)
 
 import sys
 import random
@@ -224,3 +225,57 @@ print(type(c))
 
 
 print(random.randrange(1, 10))
+
+
+x = int(1)
+y = int(2.8)
+z = int("3")
+
+
+x = float(1)
+y = float(2.8)
+z = float("3")
+w = float("4.2")
+
+
+x = str("s1")
+y = str(2)
+z = str(3.0)
+
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+a = '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(a)
+
+print(a[1])
+
+for x in "kingdom":
+    print(x)
+
+print(len(a))
+
+print("Lorem" in a)
+
+if "Lorem" in a:
+    print("Yes, 'Lorem' is there.")
+
+print("Deliverance" not in a)
+
+if "Deliverance" not in a:
+    print("No, 'Deliverance' is NOT present.")
+
+
+b = "Penguins go 'uhuhu'"
+print(b[2:5])
+
+print(b[2:])
+
+print(b[-5:-2])

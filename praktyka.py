@@ -2,7 +2,7 @@
 #Python Introduction, Getting Started, Syntax, Statements, Syntax Code Challenge, Output / Print, Numbers, Output Code Challenge, Comments, Challenge: Comments,
 #Variables, Variable Names, Variables - Assign Multiple Values, Output Variables, Global Variables, Variable Exercises, Variables Code Challenge,
 #Data Types, Data Types Code Challenge, Numbers, Numbers Code Challenge, Casting,  Casting Code Challenge, Strings, Slicing Strings, Modify Strings
-#   (Teraz tu jestem!)
+#  
 
 import sys
 import random
@@ -279,3 +279,45 @@ print(b[2:5])
 print(b[2:])
 
 print(b[-5:-2])
+
+print(b.upper())
+
+print(b.lower())
+
+print(b.strip())
+
+print(b.replace("U", "A"))
+
+print(b.split(" "))
+
+#  String Concatenation, Format - Strings, Escape Characters, String Methods  (Teraz tu jestem!)
+#
+#
+#
+#
+
+
+a = "Peguins "
+b = "go 'uhuhu'"
+c = a + b
+print(c)
+
+a = "Peguins"
+b = "go 'uhuhu'"
+c = a + " " + b
+print(c)
+
+
+age = 60
+txt = f"My name is John, I am {age}"
+print(txt)
+
+price = 59
+txt = f"The price is {price:.2f} euros"
+print(txt)
+
+txt = f"The price is {20 * 59} euros"
+print(txt)
+
+txt = "We\t are\b\rso-called \"Vikings\" \\from\n the\f north." 
+print(txt)

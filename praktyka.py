@@ -291,7 +291,7 @@ print(b.replace("U", "A"))
 print(b.split(" "))
 
 #  String Concatenation, Format - Strings, Escape Characters, String Methods, String Exercises, Strings Code Challenge, Booleans
-#   (I am here now!)
+#  Booleans Code Challenge, Operators, Arithmetic Operators, Assignment Operators   (I am here now!)
 #
 #
 #
@@ -357,3 +357,127 @@ print(bool(""))
 print(bool(()))
 print(bool([]))
 print(bool({}))
+
+
+class myclass():
+    def __len__(self):
+        return 0
+
+myobj = myclass()
+print()
+print(bool(myobj))
+
+
+def myFunction():
+    return True
+
+if myFunction():
+    print("YES!")
+else:
+    print("NO!")
+
+
+x = 200
+print(isinstance(x, int))
+
+
+print(10 + 5)
+
+
+sum1 = 100 +50
+sum2 = sum1 + 250
+sum3 = sum2 + sum2
+
+print(sum3)
+
+
+x =  8
+y = 4
+
+print(x + y)
+print(x - y)
+print(x * y)
+print(x / y)
+print(x % y)
+print(x ** y)
+print(x // y)
+
+
+x = 5
+x += 3
+
+print(x)
+
+
+x = 5
+x -= 3
+
+print(x)
+
+
+x = 5
+x *= 3
+
+print(x)
+
+
+x = 5
+x /= 3
+
+print(x)
+
+
+x = 5
+x %= 3
+
+print(x)
+
+
+x = 5
+x //= 3
+
+print(x)
+
+
+x = 5
+x **= 3
+
+print(x)
+
+
+x = 5
+x &= 3
+
+print(x)
+
+
+x = 5
+x |= 3
+
+print(x)
+
+
+x = 5
+x ^= 3
+
+print(x)
+
+
+x = 5
+x >>= 3
+
+print(x)
+
+
+x = 5
+x <<= 3
+
+print(x)
+
+
+x = 5
+
+print(x := 3)
+
+
+
